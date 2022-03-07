@@ -1,0 +1,9 @@
+.list-itemone {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.butttoncategory {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}

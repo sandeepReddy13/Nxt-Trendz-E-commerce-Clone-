@@ -1,0 +1,52 @@
+.list-itemone {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.butttoncategory {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.searchboxcontainer {
+  background-color: lightblue;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchInput {
+  outline: None;
+  padding-left: 10px;
+  background-color: #f1f5f9;
+  border-width: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.filters-group-container {
+  margin-top: 16px;
+}
+.clearfilterbutton {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.starimageone {
+  height: 30px;
+  width: 150px;
+}
+.categoryaparagraph {
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 20px;;
+  padding-left: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
